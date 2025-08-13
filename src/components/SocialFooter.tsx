@@ -33,7 +33,7 @@ const SocialFooter = () => {
           >
             <social.icon 
               size={18} 
-              className="text-secondary group-hover:text-primary transition-colors duration-300" 
+              className="text-muted group-hover:text-primary transition-colors duration-300" 
             />
           </motion.a>
         ))}

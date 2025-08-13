@@ -15,14 +15,14 @@ const ProfileSection = () => {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-purple-400/30 profile-glow animate-glow-pulse mx-auto">
+        <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/20 profile-glow animate-glow-pulse mx-auto">
           <img 
             src={profilePhoto} 
             alt="Profile" 
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 p-1 animate-spin" style={{animationDuration: '3s'}}>
+        <div className="absolute inset-0 rounded-full bg-gradient-to-r from-gray-400 via-white to-gray-300 p-1 animate-spin" style={{animationDuration: '4s'}}>
           <div className="w-full h-full rounded-full bg-transparent"></div>
         </div>
       </motion.div>
