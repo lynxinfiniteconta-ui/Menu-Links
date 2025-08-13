@@ -10,14 +10,13 @@ import {
   BookOpen, 
   Calendar,
   Camera,
-  TikTok
 } from 'lucide-react';
 
 const linkData = [
   {
     icon: ShoppingBag,
-    title: 'Sem Sono',
-    description: 'Produtos exclusivos.',
+    title: 'Método Oculto',
+    description: 'Emagrecimento Natural Sem Usar Canetinhas Milagrosas.',
     href: 'https://www.hydr4lab.site/'
   },
   {
@@ -39,7 +38,7 @@ const linkData = [
     href: 'https://www.instagram.com/hydr4.lab/'
   },
   {
-    icon: TikTok,
+    icon: Camera,
     title: 'TikTok',
     description: 'Siga para conteúdo diário.',
     href: 'https://www.facebook.com/hydr4.lab'
