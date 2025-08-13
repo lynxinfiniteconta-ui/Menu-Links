@@ -17,7 +17,7 @@ const linkData = [
     icon: ShoppingBag,
     title: 'Método Oculto',
     description: 'Emagrecimento Natural Sem Usar Canetinhas Milagrosas.',
-    href: 'https://www.hydr4lab.site/'
+    href: 'http://metodooculto.hydr4lab.site'
   },
   {
     icon: ShoppingBag,
