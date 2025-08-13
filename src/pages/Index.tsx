@@ -49,7 +49,7 @@ const linkData = [
     title: 'Portfolio',
     description: 'Meus trabalhos',
     href: 'https://portfolio.exemplo.com'
-  },
+  }
 ];
 
 const Index = () => {
