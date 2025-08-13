@@ -22,7 +22,7 @@ const ProfileSection = () => {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="absolute inset-0 rounded-full bg-gradient-to-r from-gray-400 via-white to-gray-300 p-1 animate-spin" style={{animationDuration: '4s'}}>
+        <div className="absolute inset-0 rounded-full  p-1 animate-spin" style={{animationDuration: '4s'}}>
           <div className="w-full h-full rounded-full bg-transparent"></div>
         </div>
       </motion.div>
