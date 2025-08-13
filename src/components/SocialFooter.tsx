@@ -45,7 +45,7 @@ const SocialFooter = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 1.8 }}
       >
-        © 2024 - Criado com ❤️
+        © 2025 - Criado por Hydr4 Lab. ❤️
       </motion.p>
     </motion.footer>
   );
