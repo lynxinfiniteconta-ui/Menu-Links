@@ -3,9 +3,8 @@ import { Instagram, Twitter, Youtube, Mail, Linkedin } from 'lucide-react';
 
 const socialLinks = [
   { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
+  { icon: Facebook, href: '#', label: 'Facebook' },
   { icon: Youtube, href: '#', label: 'YouTube' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
   { icon: Mail, href: 'mailto:contato@exemplo.com', label: 'Email' },
 ];
 
