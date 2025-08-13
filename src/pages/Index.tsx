@@ -34,33 +34,15 @@ const linkData = [
   },
   {
     icon: ShoppingBag,
-    title: 'Loja Online',
+    title: 'Portfolio',
     description: 'Produtos exclusivos',
     href: 'https://loja.exemplo.com'
   },
   {
     icon: BookOpen,
-    title: 'Blog',
+    title: 'Portfolio de Protudos',
     description: 'Artigos e insights',
     href: 'https://blog.exemplo.com'
-  },
-  {
-    icon: Calendar,
-    title: 'Agendamento',
-    description: 'Marque uma conversa',
-    href: 'https://calendly.com'
-  },
-  {
-    icon: Camera,
-    title: 'Portfolio',
-    description: 'Meus trabalhos',
-    href: 'https://portfolio.exemplo.com'
-  },
-  {
-    icon: Music,
-    title: 'Spotify',
-    description: 'Minhas playlists',
-    href: 'https://spotify.com'
   }
 ];
 
