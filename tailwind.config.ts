@@ -108,8 +108,8 @@ export default {
 					'100%': { opacity: '1', transform: 'scale(1)' }
 				},
 				'glow-pulse': {
-					'0%, 100%': { boxShadow: '0 0 20px hsla(280 100% 70% / 0.4)' },
-					'50%': { boxShadow: '0 0 40px hsla(280 100% 70% / 0.8)' }
+					'0%, 100%': { boxShadow: '0 0 30px hsla(280 100% 50% / 0.3)' },
+					'50%': { boxShadow: '0 0 60px hsla(280 100% 50% / 0.6)' }
 				}
 			}
 		}

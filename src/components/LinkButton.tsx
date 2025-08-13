@@ -24,13 +24,13 @@ const LinkButton = ({ href, icon: Icon, title, description, delay = 0 }: LinkBut
     >
       <div className="flex items-center space-x-4">
         <div className="flex-shrink-0">
-          <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors duration-300">
-            <Icon size={20} className="text-primary" />
+          <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-purple-500/20 transition-colors duration-300">
+            <Icon size={20} className="text-primary group-hover:text-purple-300" />
           </div>
         </div>
         
         <div className="flex-1 text-left">
-          <h3 className="text-lg font-semibold text-primary group-hover:text-white transition-colors duration-300">
+          <h3 className="text-lg font-semibold text-primary group-hover:text-purple-200 transition-colors duration-300">
             {title}
           </h3>
           {description && (
@@ -42,7 +42,7 @@ const LinkButton = ({ href, icon: Icon, title, description, delay = 0 }: LinkBut
         
         <div className="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <svg 
-            className="w-5 h-5 text-primary" 
+            className="w-5 h-5 text-secondary group-hover:text-purple-300" 
             fill="none" 
             stroke="currentColor" 
             viewBox="0 0 24 24"
