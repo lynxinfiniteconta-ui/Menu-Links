@@ -38,6 +38,22 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    /* Linktree Design System */
+    --gradient-primary: linear-gradient(135deg, hsl(280 100% 70%), hsl(240 100% 80%));
+    --gradient-secondary: linear-gradient(135deg, hsl(200 100% 70%), hsl(160 100% 75%));
+    --gradient-hero: linear-gradient(135deg, hsl(280 100% 70%) 0%, hsl(240 100% 80%) 50%, hsl(200 100% 85%) 100%);
+    
+    --glass-background: hsla(0 0% 100% / 0.1);
+    --glass-border: hsla(0 0% 100% / 0.2);
+    --glass-shadow: 0 8px 32px hsla(280 100% 70% / 0.15);
+    
+    --profile-glow: 0 0 40px hsla(280 100% 70% / 0.6);
+    --hover-glow: 0 8px 25px hsla(280 100% 70% / 0.3);
+    
+    --text-primary: hsl(0 0% 100%);
+    --text-secondary: hsla(0 0% 100% / 0.8);
+    --text-muted: hsla(0 0% 100% / 0.6);
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -56,30 +72,23 @@ All colors MUST be HSL.
   }
 
   .dark {
+    /* Dark mode inherits same design for consistency */
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
-
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
-
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
-
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
-
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
-
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
-
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
@@ -101,5 +110,44 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    background: var(--gradient-hero);
+    min-height: 100vh;
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: var(--glass-background);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+  }
+  
+  .glass-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .glass-hover:hover {
+    background: hsla(0 0% 100% / 0.15);
+    box-shadow: var(--hover-glow);
+    transform: translateY(-2px);
+  }
+  
+  .profile-glow {
+    box-shadow: var(--profile-glow);
+  }
+  
+  .text-primary {
+    color: var(--text-primary);
+  }
+  
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  
+  .text-muted {
+    color: var(--text-muted);
   }
 }
