@@ -10,33 +10,45 @@ import {
   BookOpen, 
   Calendar,
   Camera,
-  Podcast
+  TikTok
 } from 'lucide-react';
 
 const linkData = [
   {
+    icon: ShoppingBag,
+    title: 'Sem Sono',
+    description: 'Produtos exclusivos.',
+    href: 'https://www.hydr4lab.site/'
+  },
+  {
+    icon: ShoppingBag,
+    title: 'Guia Sono Profundo',
+    description: 'Rotina de sono que funciona para seu bebê',
+    href: 'http://guiaparasonoprofundo.hydr4lab.site/'
+  },
+  {
+    icon: BookOpen,
+    title: 'Portfolio de Produtos',
+    description: 'Veja Todos nossos produtos.',
+    href: 'https://blog.exemplo.com'
+  },
+  {
     icon: Instagram,
     title: 'Instagram',
-    description: 'Siga para conteúdo diário',
-    href: 'https://instagram.com'
+    description: 'Siga para conteúdo diário.',
+    href: 'https://www.instagram.com/hydr4.lab/'
+  },
+  {
+    icon: TikTok,
+    title: 'TikTok',
+    description: 'Siga para conteúdo diário.',
+    href: 'https://www.facebook.com/hydr4.lab'
   },
   {
     icon: Facebook,
     title: 'Facebook',
-    description: 'Siga para conteúdo diário',
-    href: 'https://youtube.com'
-  },
-  {
-    icon: ShoppingBag,
-    title: 'Portfolio',
-    description: 'Produtos exclusivos',
-    href: 'https://loja.exemplo.com'
-  },
-  {
-    icon: BookOpen,
-    title: 'Portfolio de Protudos',
-    description: 'Artigos e insights',
-    href: 'https://blog.exemplo.com'
+    description: 'Siga para conteúdo diário.',
+    href: 'https://www.facebook.com/hydr4.lab'
   }
 ];
 
