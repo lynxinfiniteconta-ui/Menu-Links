@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import profilePhoto from '@/assets/profile-photo.jpg';
+import profilePhoto from '/Prancheta 5-200.jpg';
 
 const ProfileSection = () => {
   return (
