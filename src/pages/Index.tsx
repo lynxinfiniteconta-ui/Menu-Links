@@ -5,7 +5,7 @@ import SocialFooter from '@/components/SocialFooter';
 import { 
   Instagram, 
   Youtube, 
-  Music, 
+  Facebook, 
   ShoppingBag, 
   BookOpen, 
   Calendar,
@@ -21,16 +21,10 @@ const linkData = [
     href: 'https://instagram.com'
   },
   {
-    icon: Youtube,
-    title: 'YouTube',
-    description: 'Vídeos e tutoriais',
+    icon: Facebook,
+    title: 'Facebook',
+    description: 'Siga para conteúdo diário',
     href: 'https://youtube.com'
-  },
-  {
-    icon: Podcast,
-    title: 'Podcast',
-    description: 'Ouça nosso podcast semanal',
-    href: 'https://spotify.com'
   },
   {
     icon: ShoppingBag,
