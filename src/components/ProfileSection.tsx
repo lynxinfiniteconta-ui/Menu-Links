@@ -42,7 +42,7 @@ const ProfileSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.6 }}
       >
-        Criador de conteúdo digital • Designer • Desenvolvedor
+        Conhecimento que se adapta ao seu dia a dia. 🖤
       </motion.p>
     </motion.div>
   );
