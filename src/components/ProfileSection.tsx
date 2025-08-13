@@ -33,7 +33,7 @@ const ProfileSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.4 }}
       >
-        Seu Nome
+        Hydr4 Lab
       </motion.h1>
       
       <motion.p 
