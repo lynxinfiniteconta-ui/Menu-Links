@@ -27,8 +27,14 @@ const linkData = [
     href: 'https://youtube.com'
   },
   {
+    icon: Podcast,
+    title: 'Podcast',
+    description: 'Ouça nosso podcast semanal',
+    href: 'https://spotify.com'
+  },
+  {
     icon: ShoppingBag,
-    title: 'Portfolio',
+    title: 'Loja Online',
     description: 'Produtos exclusivos',
     href: 'https://loja.exemplo.com'
   },
@@ -49,6 +55,12 @@ const linkData = [
     title: 'Portfolio',
     description: 'Meus trabalhos',
     href: 'https://portfolio.exemplo.com'
+  },
+  {
+    icon: Music,
+    title: 'Spotify',
+    description: 'Minhas playlists',
+    href: 'https://spotify.com'
   }
 ];
 
