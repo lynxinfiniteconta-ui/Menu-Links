@@ -43,7 +43,21 @@ const ProfileSection = () => {
         transition={{ duration: 0.6, delay: 0.6 }}
       >
         ✨ Conhecimento que se adapta ao seu dia a dia. 🖤
+      </motion.p>
+            <motion.p 
+        className="text-lg text-secondary max-w-md mx-auto"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.6 }}
+      >
 💡 Dicas práticas, estratégias e soluções que funcionam.
+      </motion.p>
+            <motion.p 
+        className="text-lg text-secondary max-w-md mx-auto"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.6 }}
+      >
 👇 Comece a mudar sua vida hoje!
       </motion.p>
     </motion.div>
