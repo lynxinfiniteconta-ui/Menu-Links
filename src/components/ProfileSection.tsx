@@ -50,7 +50,7 @@ const ProfileSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.6 }}
       >
-💡 Dicas práticas, estratégias e soluções que funcionam.
+💡 Dicas práticas e soluções que funcionam.
       </motion.p>
             <motion.p 
         className="text-lg text-secondary max-w-md mx-auto"
