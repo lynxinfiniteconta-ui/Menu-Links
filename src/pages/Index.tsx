@@ -17,19 +17,13 @@ const linkData = [
     icon: ShoppingBag,
     title: 'Método Oculto',
     description: 'Emagrecimento Natural Sem Usar Canetinhas Milagrosas.',
-    href: 'http://metodooculto.hydr4lab.site'
+    href: 'https://pay.cakto.com.br/8azou3d_525892'
   },
   {
     icon: ShoppingBag,
-    title: 'Guia Sono Profundo',
-    description: 'Rotina de sono que funciona para seu bebê',
-    href: 'http://guiaparasonoprofundo.hydr4lab.site/'
-  },
-  {
-    icon: BookOpen,
-    title: 'Portfolio de Produtos',
-    description: 'Veja Todos nossos produtos.',
-    href: 'https://blog.exemplo.com'
+    title: '104 Receitas Para Emagrecer (Sem Deixar o Doce de Lado)',
+    description: 'Perfeito para quem quer perder peso sem abrir mão do sabor!',
+    href: 'https://pay.cakto.com.br/ss4t24p_520762'
   },
   {
     icon: Instagram,
