@@ -42,7 +42,9 @@ const ProfileSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.6 }}
       >
-        Conhecimento que se adapta ao seu dia a dia. 🖤
+        ✨ Conhecimento que se adapta ao seu dia a dia. 🖤
+💡 Dicas práticas, estratégias e soluções que funcionam.
+👇 Comece a mudar sua vida hoje!
       </motion.p>
     </motion.div>
   );
