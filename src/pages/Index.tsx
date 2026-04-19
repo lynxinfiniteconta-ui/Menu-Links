@@ -41,7 +41,7 @@ const linkData = [
     icon: Facebook,
     title: 'Facebook',
     description: 'Siga para conteúdo diário.',
-    href: 'https://www.facebook.com/hydr4.lab'
+    href: 'https://www.facebook.com/profile.php?id=61570746263366'
   }
 ];
 
