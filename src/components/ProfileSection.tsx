@@ -42,7 +42,7 @@ const ProfileSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.6 }}
       >
-        ✨ Conhecimento que se adapta ao seu dia a dia. 🖤
+        ✨ Todo dia, uma versão melhor de você.
       </motion.p>
             <motion.p 
         className="text-lg text-secondary max-w-md mx-auto"
